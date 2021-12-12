@@ -1,10 +1,5 @@
-*.mpg
-*.png
 *.lammps
 *lammpstrj
-*lammpstrj_1
-*.dat
 *.sh.*
 *.out
 *.atoms
-temp_press.*

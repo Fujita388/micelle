@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#SBATCH -p F1cpu
+#SBATCH -p i8cpu
 #SBATCH -N 1
 #SBATCH -n 100
 #SBATCH -c 1
