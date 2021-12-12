@@ -26,7 +26,7 @@ neigh_modify every 20 delay 0 check no
 
 fix 1 all nvt temp 0.7 0.7 0.1
 
-dump id all custom 100 decomp.lammpstrj id type x y z vx vy vz
+dump id all custom 2000 decomp.lammpstrj id type x y z vx vy vz
 
 thermo 500
-run 100000
+run 300000

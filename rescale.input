@@ -26,7 +26,7 @@ neigh_modify every 20 delay 0 check no
 
 fix 1 all nve
 
-dump id all atom 100 rescale.lammpstrj
+dump id all atom 1000 rescale.lammpstrj
 
 thermo 500
-run 600000
+run 300000
