@@ -3,3 +3,7 @@
 *.sh.*
 *.out
 *.atoms
+slurm*
+*.dat
+*.log
+*.pdf
