@@ -1,0 +1,14 @@
+*.lammps
+*.lammpstrj
+*.sh.*
+*.out
+*.atoms
+slurm*
+*.log
+*.dat
+*.pdf
+output.*
+TEST.*
+lammpstrj
+log
+gas_volume
