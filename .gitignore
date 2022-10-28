@@ -8,7 +8,7 @@ slurm*
 *.dat
 *.pdf
 output.*
-TEST.*
+with_surf.*
 lammpstrj
 log
 gas_volume

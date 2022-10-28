@@ -10,4 +10,4 @@ kugui:
 	qsub execute_kugui.sh
 
 clean:
-	$(RM) *.lammpstrj *.lammps *.out *.atoms execute_lab.sh.* TEST.* output.*
+	$(RM) *.lammpstrj *.lammps *.out *.atoms execute_lab.sh.* with_surf.* output.*
