@@ -12,3 +12,5 @@ TEST.*
 lammpstrj
 log
 gas_volume
+data
+fit
