@@ -1,9 +1,9 @@
 #!/bin/sh
 
 #PBS -q F16cpu
-#PBS -l select=16:ncpus=128:mpiprocs=128:ompthreads=1
+#PBS -l select=16:ncpus=512:mpiprocs=128:ompthreads=1
 #PBS -l walltime=24:00:00
-#PBS -N with_surf
+#PBS -N bubble_with_surf
 
 module load intel intel-mpi
 python3 generate.py

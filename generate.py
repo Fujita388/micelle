@@ -108,6 +108,6 @@ def save_file(filename, atoms, bond_num):
 
 atoms = []
 bonds_list = []
-#bond_num = add_ball(atoms, 119, 0.8)
-bond_num = add_ball(atoms, 51, 0.8)
+bond_num = add_ball(atoms, 119, 0.8)
+#bond_num = add_ball(atoms, 51, 0.8)
 save_file("decomp.atoms", atoms, bond_num)

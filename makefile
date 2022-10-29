@@ -1,13 +1,13 @@
 all:
 
 lab:
-	qsub execte_lab.sh
+	qsub bubble_with_surf_lab.sh
 
 ohtaka:
-	sbatch execute_ohtaka.sh
+	sbatch bubble_with_surf_ohtaka.sh
 
 kugui:
-	qsub execute_kugui.sh
+	qsub bubble_with_surf_kugui.sh
 
 clean:
-	$(RM) *.lammpstrj *.lammps *.out *.atoms execute_lab.sh.* with_surf.* output.*
+	$(RM) *.lammpstrj *.lammps *.out *.atoms execute_lab.sh.* with_surf.* *.log
