@@ -10,4 +10,4 @@ kugui:
 	qsub bubble_with_surf_kugui.sh
 
 clean:
-	$(RM) *.lammpstrj *.lammps *.out *.atoms execute_lab.sh.* bubble_with_surf.* *.log
+	$(RM) *.lammpstrj *.lammps *.out *.atoms bubble_with_surf.* bubble_with_surf_lab.sh.* *.log

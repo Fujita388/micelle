@@ -85,17 +85,17 @@ def save_file(filename, atoms, bond_num):
         f.write("{} bonds\n\n".format(bond_num))
         f.write("3 atom types\n")
         f.write("1 bond types\n\n")
-        f.write("0.00 51.00 xlo xhi\n")
-        f.write("0.00 51.00 ylo yhi\n")
-        f.write("0.00 51.00 zlo zhi\n")
+        f.write("0.00 119.00 xlo xhi\n")
+        f.write("0.00 119.00 ylo yhi\n")
+        f.write("0.00 119.00 zlo zhi\n")
         f.write("\n")
         f.write("Atoms\n\n")
         for i, a in enumerate(atoms):  #粒子番号、BondID、atom type、座標
             f.write("{} {} {} {} {} {}\n".format(i+1, a.bond_id, a.type, a.x, a.y, a.z))
-        f.write("\n")
-        f.write("Velocities\n\n")
-        for i, a in enumerate(atoms):
-            f.write("{} {} {} {}\n".format(i+1, a.vx, a.vy, a.vz))
+#        f.write("\n")
+#        f.write("Velocities\n\n")
+#        for i, a in enumerate(atoms):
+#            f.write("{} {} {} {}\n".format(i+1, a.vx, a.vy, a.vz))
         f.write("\n")
         f.write("Bonds\n\n")
         i = 1 
@@ -109,5 +109,4 @@ def save_file(filename, atoms, bond_num):
 atoms = []
 bonds_list = []
 bond_num = add_ball(atoms, 119, 0.8)
-#bond_num = add_ball(atoms, 51, 0.8)
 save_file("decomp.atoms", atoms, bond_num)

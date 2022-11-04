@@ -7,11 +7,8 @@ slurm*
 *.log
 *.dat
 *.pdf
-output.*
-with_surf.*
 lammpstrj
 log
 gas_volume
 data
 fit
-graph
