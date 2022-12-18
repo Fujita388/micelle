@@ -2,7 +2,7 @@
 
 #PBS -q F16cpu
 #PBS -l select=16:ncpus=128:mpiprocs=128:ompthreads=1
-#PBS -l walltime=06:00:00
+#PBS -l walltime=04:00:00
 #PBS -N bubble_with_surf01
 
 export PATH=$PATH:/home/k0117/k011705/other/lammps/src
